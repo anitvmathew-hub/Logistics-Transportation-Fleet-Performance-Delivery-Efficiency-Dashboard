@@ -206,3 +206,4 @@ This Power BI project demonstrates how logistics and transportation data can be 
 
 
 
+![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
