@@ -1,3 +1,8 @@
+
+![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
+
+
+
 📖 Project Overview
 
 The Logistics & Transportation Analytics Dashboard is an interactive Business Intelligence solution developed entirely in Power BI to analyze fleet performance, delivery efficiency, route optimization, and operational productivity.
@@ -206,4 +211,3 @@ This Power BI project demonstrates how logistics and transportation data can be 
 
 
 
-![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
