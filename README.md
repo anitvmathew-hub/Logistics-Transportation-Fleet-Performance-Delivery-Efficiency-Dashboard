@@ -40,6 +40,13 @@ Dataset Fields:
  
  ●	***Vehicle Master***: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
 
+### Tools & Technologies
+ * Microsoft Power BI
+ * Power Query
+ * DAX 
+ * Data Modeling
+ * Data Visualization
+
 
 ## Power BI Development Process
 
@@ -68,7 +75,7 @@ The dataset was imported into Power BI and transformed using Power Query.
   * Delivery performance %
   * Cost per km
   * Fuel efficiency
-  * 
+    
 ### Dashboard Features
 
 #### KPIs
@@ -92,14 +99,14 @@ The dataset was imported into Power BI and transformed using Power Query.
 
 ### Key Business Insights
 
- * Total Trips: 50
- * Total Distance Covered: 53.61K km
- * Total Fuel Consumed: 4.63K L
- * Cost per km: $10.05
+ * Total Trips: **50**
+ * Total Distance Covered: **53.61K km**
+ * Total Fuel Consumed: **4.63K L**
+ * Cost per km: **$10.05**
  * Some vehicles incur relatively high costs despite average fuel efficiency, suggesting maintenance or operational inefficiencies.
- * Fuel efficiency decreased from approximately 11.93 km/L in January to 11.39 km/L in February.
- * Out of 50 total trips, 30 trips (60%) were completed On-Time, while 20 trips (40%) experienced delays.
- * Several routes such as Bangalore–Pune, Chennai–Delhi, Delhi–Pune, and Mumbai–Pune achieved a 100% on-time delivery rate, demonstrating consistently strong
+ * Fuel efficiency **decreased** from approximately **11.93 km/L in January to 11.39 km/L in February**.
+ * Out of 50 total trips, 30 trips **(60%)** were completed **On-Time**, while 20 trips **(40%)** experienced **delays**.
+ * Several routes such as **Bangalore–Pune, Chennai–Delhi, Delhi–Pune, and Mumbai–Pune achieved a 100% on-time delivery rate**, demonstrating consistently strong
    operational performance. A few routes show only 50–75% on-time delivery, indicating recurring delays that require operational review.
 
 ### Business Recommendations
@@ -108,12 +115,6 @@ The dataset was imported into Power BI and transformed using Power Query.
  * Improve fleet profitability by assigning the most fuel-efficient vehicles to long-distance routes.
  * Monitor route and vehicle KPIs continuously to identify underperforming assets and improve overall logistics efficiency.
 
-### Tools & Technologies
- * Microsoft Power BI
- * Power Query
- * DAX 
- * Data Modeling
- * Data Visualization
 
 ### Conclusion
 
@@ -121,7 +122,7 @@ This Power BI project demonstrates how logistics and transportation data can be 
 
 
 
-###Dashboard Preview
+### Dashboard Preview
 
 ![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
 
