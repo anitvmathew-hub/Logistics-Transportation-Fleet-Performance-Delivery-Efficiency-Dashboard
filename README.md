@@ -36,9 +36,9 @@ This dashboard addresses these challenges by providing real-time analytics and i
 The dataset contains transportation operational information including:
 Dataset Fields: 
 
- ●	**Trip Data**: Trip ID, Vehicle ID, Driver ID, Origin, Destination, Distance (km), Fuel Consumed (liters), Delivery Status (On-Time/Late), Delivery Date.
+ ●	***Trip Data***: Trip ID, Vehicle ID, Driver ID, Origin, Destination, Distance (km), Fuel Consumed (liters), Delivery Status (On-Time/Late), Delivery Date.
  
- ●	**Vehicle Master**: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
+ ●	***Vehicle Master***: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
 
 
 ## Power BI Development Process
@@ -55,168 +55,73 @@ The dataset was imported into Power BI and transformed using Power Query.
  * Standardized date formats
  * Extracted Month and Time from Delivery Date Column.
  * Created calculated column Route.
- * Created measures like Total Cost, Total Fuel, Total Trips, Total Distance, On-Time Delivery %, Fuel cost, Maintenance Cost, Delivery performance %, Cost per      km, Fuel efficiency
+ * Built relationships between tables Trip_Data and Vehicle_Master
+
+### DAX Measures Used
+  * Total Cost
+  * Total Fuel
+  * Total Trips
+  * Total Distance
+  * On-Time Delivery %
+  * Fuel cost
+  * Maintenance Cost
+  * Delivery performance %
+  * Cost per km
+  * Fuel efficiency
+  * 
+### Dashboard Features
+
+#### KPIs
+
+ * Total Trips
+ * On-Time Delivery %
+ * Average Delivery Time
+ * Total Distance 
+ * Cost per Km
+ * Total Fuel
+
+#### Visualizations
+
+ * Delivery Performance % by Route and Delivery_Status
+ * Fuel Efficiency by Month
+ * Total Trips by Delivery Status
+ * On-Time Delivery % by Route
+ * Fuel Efficiency, Cost per km and Total Distance by Vehicle_ID and Vehicle_Type
 
 
 
+### Key Business Insights
 
+ * Total Trips: 50
+ * Total Distance Covered: 53.61K km
+ * Total Fuel Consumed: 4.63K L
+ * Cost per km: $10.05
+ * Some vehicles incur relatively high costs despite average fuel efficiency, suggesting maintenance or operational inefficiencies.
+ * Fuel efficiency decreased from approximately 11.93 km/L in January to 11.39 km/L in February.
+ * Out of 50 total trips, 30 trips (60%) were completed On-Time, while 20 trips (40%) experienced delays.
+ * Several routes such as Bangalore–Pune, Chennai–Delhi, Delhi–Pune, and Mumbai–Pune achieved a 100% on-time delivery rate, demonstrating consistently strong
+   operational performance. A few routes show only 50–75% on-time delivery, indicating recurring delays that require operational review.
 
-Built relationships between tables Trip_Data and Vehicle_Master
-📊 Dashboard Features
-🚛 Fleet Performance Overview
+### Business Recommendations
+ * Increase On-Time Delivery from 60% to a target of 85–90% by optimizing routes and schedules.
+ * Reduce the 40% delay rate through proactive monitoring and real-time operational interventions.
+ * Improve fleet profitability by assigning the most fuel-efficient vehicles to long-distance routes.
+ * Monitor route and vehicle KPIs continuously to identify underperforming assets and improve overall logistics efficiency.
 
-KPIs
+### Tools & Technologies
+ * Microsoft Power BI
+ * Power Query
+ * DAX 
+ * Data Modeling
+ * Data Visualization
 
-Total Trips
-Total Deliveries
-On-Time Delivery %
-Delayed Deliveries
-Fleet Utilization %
-Average Delivery Time
-Total Distance Covered
-
-Visualizations
-
-Monthly Trip Trend
-Delivery Status Breakdown
-Fleet Utilization by Vehicle
-Fuel Consumption Analysis
-Distance Covered by Vehicle
-Vehicle Performance Comparison
-🗺 Route Performance Analysis
-
-Provides insights into delivery efficiency across different routes.
-
-Visualizations
-
-On-Time Delivery % by Route
-Route Distance Analysis
-Average Delivery Time by Route
-Delivery Status by Route
-Route Performance Matrix
-Interactive Route Filters
-⛽ Vehicle Performance Analysis
-
-Evaluates operational efficiency of fleet vehicles.
-
-Visualizations
-
-Fuel Efficiency by Vehicle
-Vehicle Utilization
-Distance vs Fuel Consumption Scatter Plot
-Maintenance Status Distribution
-Vehicle Performance Ranking
-📦 Delivery Performance
-
-Monitors delivery completion and operational effectiveness.
-
-Visualizations
-
-Delivery Status Distribution
-Monthly Delivery Trend
-Delayed Deliveries by Route
-Delivery Duration Analysis
-Regional Delivery Performance
-📈 DAX Measures Used
-
-The dashboard includes custom DAX measures such as:
-
-Total Trips
-Total Deliveries
-Delayed Deliveries
-On-Time Delivery %
-Fleet Utilization %
-Average Delivery Time
-Total Distance Covered
-Total Fuel Consumption
-Fuel Efficiency
-Vehicle Performance Score
-🎛 Interactive Dashboard Features
-Interactive slicers
-Dynamic KPI cards
-Cross-filtering across visuals
-Drill-down functionality
-Drill-through analysis
-Custom tooltips
-Dynamic visual visibility (charts hidden when no data is available)
-Responsive dashboard layout
-📊 Key Business Insights
-🚚 Fleet Utilization
-A small number of vehicles completed most trips, while several vehicles remained underutilized, indicating opportunities for better workload distribution.
-📍 Route Performance
-Certain routes consistently achieved higher on-time delivery rates, whereas others experienced recurring delays, highlighting areas for route optimization.
-⛽ Fuel Efficiency
-Fuel consumption generally increased with trip distance, but some vehicles consumed more fuel than expected, suggesting possible maintenance or driving efficiency issues.
-📦 Delivery Efficiency
-Most deliveries were completed successfully, but delayed deliveries were concentrated on specific routes and time periods.
-📅 Operational Trends
-Transportation activity fluctuated over time, helping identify peak operational periods for better resource planning.
-💡 Business Recommendations
-🚛 Improve Fleet Utilization
-
-Balance trip assignments across all available vehicles to maximize asset usage and reduce wear on frequently used vehicles.
-
-📍 Optimize Route Planning
-
-Review low-performing routes and adjust schedules or routes to minimize travel time and improve on-time delivery performance.
-
-⛽ Reduce Fuel Costs
-
-Monitor vehicle fuel efficiency regularly and prioritize maintenance for vehicles with unusually high fuel consumption.
-
-🔧 Strengthen Preventive Maintenance
-
-Use vehicle performance metrics to schedule proactive maintenance and minimize unexpected downtime.
-
-📦 Improve Delivery Performance
-
-Investigate recurring delivery delays and implement corrective measures such as route optimization, driver training, or scheduling improvements.
-
-📈 Track KPIs Continuously
-
-Leverage dashboard insights to monitor fleet performance regularly and support strategic decision-making.
-
-🛠 Tools & Technologies
-Microsoft Power BI
-Power Query
-DAX (Data Analysis Expressions)
-Data Modeling
-Interactive Dashboard Design
-🌟 Skills Demonstrated
-Data Transformation
-Power Query
-Data Modeling
-DAX
-KPI Development
-Interactive Dashboard Design
-Fleet Performance Analysis
-Logistics Analytics
-Data Visualization
-Business Intelligence
-Data Storytelling
-📸 Dashboard Preview
-
-Include screenshots of each report page to showcase the dashboard design and interactivity.
-
-🚀 Future Enhancements
-Predictive delivery delay analysis
-AI-powered route optimization
-Real-time GPS tracking integration
-Driver performance scorecards
-Carbon emission monitoring
-Automated operational alerts
-🎯 Conclusion
+### Conclusion
 
 This Power BI project demonstrates how logistics and transportation data can be transformed into actionable business insights through interactive dashboards and advanced analytics. By monitoring fleet utilization, delivery efficiency, route performance, and fuel consumption, the solution empowers logistics teams to improve operational efficiency, reduce costs, and enhance customer satisfaction through data-driven decision-making.
 
 
 
-
-
-
-
-
-
+###Dashboard Preview
 
 ![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
 
