@@ -56,13 +56,14 @@ The dataset was imported into Power BI and transformed using Power Query.
 
 #### Tasks performed:
 
- * Checked duplicate records
- * Handled missing value in Distance column
- * Corrected data types
- * Standardized date formats
+ * Checked duplicate records.
+ * Handled missing value in Distance column.
+ * No missing value was found in fuel consumption values.
+ * Corrected data types.
+ * Standardized date formats.
  * Extracted Month and Time from Delivery Date Column.
  * Created calculated column Route.
- * Built relationships between tables Trip_Data and Vehicle_Master
+ * Built relationships between tables Trip_Data and Vehicle_Master.
 
 ### DAX Measures Used
   * Total Cost
