@@ -203,3 +203,6 @@ Automated operational alerts
 🎯 Conclusion
 
 This Power BI project demonstrates how logistics and transportation data can be transformed into actionable business insights through interactive dashboards and advanced analytics. By monitoring fleet utilization, delivery efficiency, route performance, and fuel consumption, the solution empowers logistics teams to improve operational efficiency, reduce costs, and enhance customer satisfaction through data-driven decision-making.
+
+
+
