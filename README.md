@@ -36,9 +36,9 @@ This dashboard addresses these challenges by providing real-time analytics and i
 The dataset contains transportation operational information including:
 Dataset Fields: 
 
- ●	*Trip Data*: Trip ID, Vehicle ID, Driver ID, Origin, Destination, Distance (km), Fuel Consumed (liters), Delivery Status (On-Time/Late), Delivery Date.
+ ●	**Trip Data**: Trip ID, Vehicle ID, Driver ID, Origin, Destination, Distance (km), Fuel Consumed (liters), Delivery Status (On-Time/Late), Delivery Date.
  
- ●	*Vehicle Master*: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
+ ●	**Vehicle Master**: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
 
 
 ## Power BI Development Process
@@ -47,7 +47,7 @@ Dataset Fields:
 
 The dataset was imported into Power BI and transformed using Power Query.
 
-##### Tasks performed:
+#### Tasks performed:
 
  * Checked duplicate records
  * Handled missing value in Distance column
