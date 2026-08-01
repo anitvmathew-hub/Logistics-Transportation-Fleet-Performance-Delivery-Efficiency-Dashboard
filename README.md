@@ -1,52 +1,46 @@
-
-![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
-
+# Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard
 
 
-📖 Project Overview
+## Project Overview
 
 The Logistics & Transportation Analytics Dashboard is an interactive Business Intelligence solution developed entirely in Power BI to analyze fleet performance, delivery efficiency, route optimization, and operational productivity.
 
 The dashboard transforms raw transportation data into meaningful visual insights through data modeling, DAX calculations, and interactive reports. It enables logistics managers to monitor key operational metrics, identify performance gaps, and make informed business decisions that improve delivery efficiency while reducing operational costs.
 
-🎯 Business Problem
+
+## Business Problem
 
 Transportation companies often face challenges such as:
 
-Increasing delivery delays
-Rising fuel consumption
-Uneven fleet utilization
-Poor visibility into vehicle performance
-Difficulty tracking delivery efficiency
-Inefficient route planning
-High operational costs
+ * Increasing delivery delays
+ * Rising fuel consumption
+ * Uneven fleet utilization
+ * Poor visibility into vehicle performance 
+ * Difficulty tracking delivery efficiency
+ * Inefficient route planning
+ * High operational costs
 
 This dashboard addresses these challenges by providing real-time analytics and interactive visualizations to improve operational performance.
 
-🎯 Project Objectives
-Monitor overall fleet performance
-Measure delivery efficiency across routes
-Analyze vehicle utilization
-Track fuel efficiency
-Identify delayed deliveries
-Evaluate route performance
-Enable data-driven operational decisions
-📂 Dataset Overview
+## Project Objectives
+ * Monitor overall fleet performance
+ * Measure delivery efficiency across routes
+ * Analyze vehicle utilization
+ * Track fuel efficiency
+ * Identify delayed deliveries
+ * Evaluate route performance
+ * Enable data-driven operational decisions
+   
+## Dataset Overview
 
 The dataset contains transportation operational information including:
+Dataset Fields: 
 
-Vehicle ID
-Vehicle Type
-Driver Name
-Route
-Trip Date
-Delivery Status
-Distance Covered
-Delivery Time
-Fuel Consumption
-Fuel Efficiency
-Maintenance Status
-Operational Cost
+ ●	*Trip Data*: Trip ID, Vehicle ID, Driver ID, Origin, Destination, Distance (km), Fuel Consumed (liters), Delivery Status (On-Time/Late), Delivery Date.
+ 
+ ●	*Vehicle Master*: Vehicle ID, Vehicle Type, Capacity, Maintenance Cost.
+
+
 ⚙️ Power BI Development Process
 Data Preparation
 
@@ -208,6 +202,24 @@ Automated operational alerts
 🎯 Conclusion
 
 This Power BI project demonstrates how logistics and transportation data can be transformed into actionable business insights through interactive dashboards and advanced analytics. By monitoring fleet utilization, delivery efficiency, route performance, and fuel consumption, the solution empowers logistics teams to improve operational efficiency, reduce costs, and enhance customer satisfaction through data-driven decision-making.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard](image/logistics_project_screenshot.png)
 
 
 
