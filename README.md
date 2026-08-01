@@ -1,1 +1,1 @@
-![Logistics-Transportation-Fleet-Performance-Delivery-Efficiency-Dashboard] (image/logistics_project_screenshot.png)
+![Logistics_Transportation_Fleet_Performance_Delivery_Efficiency_Dashboard] (image/logistics_project_screenshot.png)
